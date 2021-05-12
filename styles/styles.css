@@ -235,19 +235,19 @@ header{
 
 @media(max-width:1000px){
     .footer{
-        top: 200vh;
+        top: 150vh;
     }
 }
 
 @media(max-width:800px){
     .footer{
-        top: 300vh;
+        top: 200vh;
     }
 }
 
 @media(max-width:600px){
     .footer{
-        top: 320vh;
+        top: 250vh;
     }
 }
 
