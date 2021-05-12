@@ -7,4 +7,4 @@ but it was worth it :sweat_smile:
 
 ![image](https://user-images.githubusercontent.com/73502439/117923702-2509ea00-b2ba-11eb-85b1-4ff78b26538c.png)
 
-This is part of course of apprentices [Academia Geek][https://makaia.org/portfolio/academia-geek/]
+This is part of course of apprentices [Academia Geek](https://makaia.org/portfolio/academia-geek/)
