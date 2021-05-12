@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.header .navegacion a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header .navegacion a:hover{
+    background: black;
+    color: white;
+}
+
+.caja{
+    width: 100vw;
+    height: 90vh;
+    align-content: center;
+    justify-content: center;
+}
+
+/*CONTENEDOR 1*/
+#contenedor1 {
+    display: flex;
+    flex-wrap:wrap;
+    border:1px solid black;
+    width: 30vw;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    margin: 0 30vw;
+}
+
+#contenedor1 .compra1 label{
+    font-size: 20px;
+}
+
+
+#contenedor1 img{
+    width: 100px;
+}
+
+#contenedor1 h2{
+    text-transform: uppercase;
+}
+
+.caja #contenedor1 .compra1 button {
+    outline: none;
+    background: black;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.caja #contenedor1 .compra1 input{
+    width: 105px;
+    height: 25px;
+}
+
+/*CONTENEDOR 2*/
+#contenedor2 {   
+    display: none;
+    flex-wrap:wrap;
+    border:1px solid black;
+    width: 30vw;
+    height: 65vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    margin: 0 30vw;
+}
+
+
+@media (max-width:600px){
+    #contenedor2{
+        height: 80vh;
+        padding: 10px 25px;
+    }
+}
+
+#contenedor2 img{
+    width: 100px;
+}
+
+#descuento1{
+    display: none;
+}
+#descuento2{
+    display: none;
+}
+#descuento3{
+    display: none;
+}
+#descuento4{
+    display: none;
+}
+
+.footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 10vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    background: rgb(224, 224, 224);
+}
+
+.footer p{
+    margin: 0 20px;
+    font-size: 15px;
+    color: rgb(148, 148, 148);
+}
+
+.footer p a {
+    text-decoration: none;
+}
+
+@media(max-width:1000px){
+    .footer{
+        top: 20vh;
+    }
+}
+
+@media(max-width:800px){
+    .footer{
+        top: 30vh;
+    }
+}

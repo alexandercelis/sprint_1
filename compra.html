@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sprint_1/styles/compra.css">
+    <script src="./sprint_1/scripts/script.js"></script>
+    <title>Compra</title>
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="navegacion">
+            <a href="./sprint_1/index.html">Home</a>
+            <a href="./sprint_1/compra.html">Comprar</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="caja">
+
+            <div class="contenedor1" id="contenedor1">
+               
+                <div class="compra1">
+                    <h2>Almacén de computadores</h2>
+                    <img src="./image/ordenador.png">
+                    <form>
+                        <br>
+                        <label for="cantidad">Cantidad de computadores comprados</label><br><br>
+                        <input type="number" id="cantidadPc" name="cantidad" min="1" placeholder="cantidad">
+                        <br>
+                        <button type="button" onclick="calcular1(); getCantidad()">Calcular</button>
+
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="contenedor2" id="contenedor2">
+
+                    <h2 class="orden">Orden de compra<h2>
+                    
+                    <img src="./image/ordenador.png">
+                    <br>
+
+                    <label for="valor">Valor</label><br>
+                    <input type="text" name="valor" id="valor">
+                    <br>
+                    <label for="descuento">Descuento</label><br>
+                    <input type="text" name="descuento" id="descuento">
+                    <br>
+                    <label for="total"><b>Total</b></label><br>
+                    <input type="text" name="total" id="total">
+                    <br>
+
+                    <div id="descuento1">
+                        <p class="sale">Su descuento fue del 0%</p>
+                    </div>
+                    <div id="descuento2">
+                        <p class="sale">Su descuento fue del <b>15%</b></p>
+                    </div>
+                    <div id="descuento3">
+                        <p class="sale">Su descuento fue del <b>25%</b></p>
+                    </div>
+                    <div id="descuento4">
+                        <p class="sale">Su descuento fue del <b>35%</b></p>
+                    </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>Powered by <a href="https://makaia.org/portfolio/academia-geek/" rel="powered">Academia Geek</a> ©</p>
+        <p>Aprendiz: Alexander Celis Tejada</p>
+        <p>Visita este repositorio en <a href="https://github.com/alexandercelis/sprint_1" rel="repositorio">GitHub</a> </p>
+    </footer>
+
+</body>
+</html>
