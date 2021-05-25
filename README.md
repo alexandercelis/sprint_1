@@ -1,6 +1,6 @@
 ### *Sprint 1*  
 
-Practicing basic concepts of HTML, CSS and JS || Preview [here](https://alexandercelis.github.io/sprint3/)  
+Practicing basic concepts of HTML, CSS and JS || Preview [here](https://alexandercelis.github.io/sprint_1/)  
 
 This is part of course of apprentices [Academia Geek](https://makaia.org/portfolio/academia-geek/)  
 
